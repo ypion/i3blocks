@@ -2,9 +2,7 @@ command=~/.config/i3blocks/blocks/$BLOCK_NAME
 color=#c5c8c6
 interval=1
 markup=none
-separator_block_width=20
-
-#[packages_to_update]
+separator_block_width=15
 
 [bandwidth2]
 command=/usr/lib/i3blocks/bandwidth -i " " -o " "
@@ -12,26 +10,24 @@ command=/usr/lib/i3blocks/bandwidth -i " " -o " "
 [load_average]
 label=
 
-
-
 [iface]
 label=
 
 [cpu_usage]
-label=CPU
-
-[disk]
-label=
+label= 
 
 [memory]
 label=
 
-[memory]
-label=SWAP
-instance=swap
+#[memory]
+#label=SWAP
+#instance=swap
+
+[disk]
+label=
 
 [volume]
-label= 
+label= 
 
 [time]
 [date]
