@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#
+echo  
+case $BLOCK_BUTTON in
+    1) ~/scripts/shutdown_menu;;
+    *) ;;
+esac
